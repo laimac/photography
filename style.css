@@ -1,7 +1,7 @@
 :root {
   --primary-font-family: "Joan", serif;
-  --primary-color: rgb(241, 246, 249);
-  --secondary-color: rgb(243, 250, 250);
+  --primary-color: rgb(234, 241, 255);
+  --secondary-color: rgb(245, 251, 254);
 }
 
 body{
@@ -13,6 +13,9 @@ body{
   padding-top: 80px;
   display: block;
   margin: 0 auto;
+}
+.navbar, .photos{
+background-color: var(--primary-color) !important;
 }
 
 .hero{
