@@ -1,0 +1,17 @@
+:root {
+  --primary-font-family: "Joan", serif;
+  --primary-color: rgb(229, 240, 248);
+  --secondary-color: rgb(64, 63, 63);
+}
+
+h1{
+      font-family: var(--primary-font-family);
+}
+.container {
+  max-width: 800px;
+  text-align: center;
+  padding-top: 80px;
+  display: block;
+  margin: 0 auto;
+  background:var(--primary-color);
+}
