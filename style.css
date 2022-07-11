@@ -65,6 +65,7 @@ padding:0px;
 
 .about{
   text-align: left;
+  padding-bottom: 50px;
 }
 
 .camerabtn sony{
@@ -82,11 +83,11 @@ padding:0px;
 .contactme{
   text-transform: uppercase;
   color:rgb(115, 21, 21);
-  font-size:15px;
+  font-size:20px;
   padding-top: 20px;
 }
 
 .contactdetails{
-  font-size:13px;
+  font-size:17px;
   padding-bottom: 20px;
 }
