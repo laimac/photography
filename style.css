@@ -78,3 +78,15 @@ padding:0px;
 .abouth3{
   opacity: 0.8;
 }
+
+.contactme{
+  text-transform: uppercase;
+  color:rgb(115, 21, 21);
+  font-size:15px;
+  padding-top: 20px;
+}
+
+.contactdetails{
+  font-size:13px;
+  padding-bottom: 20px;
+}
