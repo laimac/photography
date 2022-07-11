@@ -14,8 +14,14 @@ body{
   display: block;
   margin: 0 auto;
 }
+
 .navbar, .photos{
 background-color: var(--primary-color) !important;
+}
+
+.navbar-brand{
+  font-size: 10px !important;
+  font-weight: bold;
 }
 
 .hero{
