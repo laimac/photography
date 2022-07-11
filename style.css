@@ -1,17 +1,41 @@
 :root {
   --primary-font-family: "Joan", serif;
-  --primary-color: rgb(229, 240, 248);
-  --secondary-color: rgb(64, 63, 63);
+  --primary-color: rgb(241, 246, 249);
+  --secondary-color: rgb(243, 250, 250);
 }
 
-h1{
-      font-family: var(--primary-font-family);
+body{
+      background: var(--secondary-color);
 }
+
 .container {
-  max-width: 800px;
   text-align: center;
   padding-top: 80px;
   display: block;
   margin: 0 auto;
-  background:var(--primary-color);
 }
+
+.hero{
+      font-family: var(--primary-font-family);
+      background-color: var(--primary-color);
+      padding:20px;
+}
+
+h1, h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2{
+font-size: 22px;
+}
+
+h3{
+font-size: 18px;
+}
+
+footer{
+  font-family: monospace;
+  padding-top: 20px;
+  background-color: var(--primary-color);
+    }
