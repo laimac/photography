@@ -43,8 +43,38 @@ h3{
 font-size: 18px;
 }
 
-footer{
+.footer{
   font-family: monospace;
   padding-top: 20px;
+  font-size: 14px;
   background-color: var(--primary-color);
     }
+
+a{
+    text-decoration: none;
+}
+
+.camerabtn{
+padding:0px;
+}
+
+.camerabutton{
+  font-size: 15px;
+  color:black;
+}
+
+.about{
+  text-align: left;
+}
+
+.camerabtn sony{
+  color:blue;
+}
+
+.abouth2{
+  font-size: 18px;
+}
+
+.abouth3{
+  opacity: 0.8;
+}
