@@ -103,7 +103,7 @@ padding:0px;
   display:block;
   text-align: justify;
   margin:0 auto;
-  width: 500px;
+  max-width: 500px;
   font-family: var(--primary-font-family);
 }
 
@@ -121,4 +121,20 @@ padding:0px;
 
 .contactmebtn{
   text-align: center;
+}
+
+@media(max-width:500px) {
+  .abouth2 {
+  padding-top:30px;
+  }
+  .about-par{
+    padding-top: 0px;
+    display:inline-block;
+  }
+}
+
+@media(max-width:280px){
+  .contacth1{
+    padding-top: 30px;
+  }
 }
