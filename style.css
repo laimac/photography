@@ -123,6 +123,11 @@ padding:0px;
   text-align: center;
 }
 
+.logo{
+float:left;
+mix-blend-mode: multiply;
+}
+
 @media(max-width:500px) {
   .abouth2 {
   padding-top:30px;
