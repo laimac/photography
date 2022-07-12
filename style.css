@@ -34,6 +34,7 @@ background-color: var(--primary-color) !important;
 h1, h2{
   text-transform: uppercase;
   font-weight: bold;
+    font-family: var(--primary-font-family);
 }
 
 h2{
@@ -88,10 +89,22 @@ padding:0px;
 
 .abouth2{
   font-size: 18px;
+    font-family: var(--primary-font-family);
 }
 
 .abouth3{
   opacity: 0.8;
+  font-family: var(--primary-font-family);
+}
+
+.about-par{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display:block;
+  text-align: justify;
+  margin:0 auto;
+  width: 500px;
+  font-family: var(--primary-font-family);
 }
 
 .contactme{
@@ -104,4 +117,8 @@ padding:0px;
 .contactdetails{
   font-size:17px;
   padding-bottom: 20px;
+}
+
+.contactmebtn{
+  text-align: center;
 }
