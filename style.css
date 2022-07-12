@@ -2,6 +2,7 @@
   --primary-font-family: "Joan", serif;
   --primary-color: rgb(234, 241, 255);
   --secondary-color: rgb(245, 251, 254);
+  --footer-color:#0b2f41;
 }
 
 body{
@@ -43,15 +44,28 @@ h3{
 font-size: 18px;
 }
 
-.footer{
+.credits{
   font-family: monospace;
-  padding-top: 20px;
   font-size: 14px;
-  background-color: var(--primary-color);
     }
+
+footer{
+    padding-top: 20px;
+    color: var(--footer-color);
+}  
+
+i{
+padding:10px;
+color: var(--footer-color);
+}
 
 a{
     text-decoration: none;
+    color:var(--footer-color);
+}
+
+.mail{
+  font-size: 13px;
 }
 
 .camerabtn{
